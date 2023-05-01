@@ -5,13 +5,14 @@ and it is represented by sigma(x)
 let sigmoid functin be  = f(X)
 ---------------------------------------------------------------------------------------------------
 f(x) = 1 / (1 + e^(-x))
+--------------------------------------------------------------------------------------------
 where e is Euler's number, approximately equal to 2.71828.
 
 To derive the sigmoid function, we can start by expressing it in terms of its output y and input x:
 ---------------------------------------------------------------------------------------------------
 
-y = 1 / (1 + e^(-x))
-Next, we can differentiate both sides of the equation with respect to x:
+y = 1 / (1 + e^(-x)) 
+  Next, we can differentiate both sides of the equation with respect to x:
 ---------------------------------------------------------------------------------------------------
 
 dy/dx = d/dx (1 / (1 + e^(-x)))
